@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on JANGC</title>
     <link>/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on JANGC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate>
@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Third</title>
-      <link>/post/third/</link>
+      <title>post</title>
+      <link>/post/post/</link>
       <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/third/</guid>
-      <description>## ## Call: ## lm(formula = y ~ x) ## ## Residuals: ## Min 1Q Median 3Q Max ## -2.1751 -0.7446 -0.1300 0.7155 2.6982 ## ## Coefficients: ## Estimate Std. Error t value Pr(&amp;gt;|t|) ## (Intercept) 0.04176 0.10401 0.401 0.689 ## x 1.92253 0.10333 18.606 &amp;lt;2e-16 *** ## --- ## Signif. codes: 0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1 ## ## Residual standard error: 1.036</description>
+      <guid>/post/post/</guid>
+      <description>knitr::opts_chunk$set(echo=F, fig.align = &amp;quot;center&amp;quot;, message=F, warning=F, fig.height = 5, fig.widget = 5, cache=T, dpi = 300)</description>
     </item>
     
   </channel>
