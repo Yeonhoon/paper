@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/r/fourth/</loc>
+    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/r/qwerty/</loc>
+    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/r-markdown/</loc>
+    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/r/</loc>
+    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/r/second/</loc>
+    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/r/third/</loc>
+    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/%EC%95%88%EB%85%95/</loc>
+    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/%ED%95%9C%EA%B8%80%EC%A7%80%EC%9B%90/</loc>
+    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/r/2015-07-23-r-rmarkdown/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/plot/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/regression/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+</urlset>

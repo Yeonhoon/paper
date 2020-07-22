@@ -1,0 +1,33 @@
+---
+title: second
+author: jyh
+date: '2020-07-22'
+slug: second
+categories: []
+tags:
+  - R Markdown
+  - 한글지원
+description: ''
+keywords:
+  
+output:
+  html_document:
+    fig_height: 6
+    fig_width: 10
+    highlight: textmate
+    theme: cosmo
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+imgs: []
+cover: ''
+readingTime: yes
+comments: yes
+justify: no
+single: no
+license: ''
+---
+
+
+hihi!
+

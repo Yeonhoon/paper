@@ -1,0 +1,28 @@
+theme = "hugo-paper"
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "훈련장"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+hasCJKLanguage = true
+disqus_shortname = '{{ .Site.DisqusShortname }}'
+[[menu.main]]
+  identifier = "Home"
+  name = "Home"
+  title = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "About"
+  name = "about"
+  title = "about"
+  url = "/About"
+  weight =  2
+
+
+[[menu.main]]
+  identifier = "R"
+  name = "R"
+  title = "R"
+  url = "/R"
+  weight = 3

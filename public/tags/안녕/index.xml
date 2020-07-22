@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>안녕 on 훈련장</title>
+    <link>/tags/%EC%95%88%EB%85%95/</link>
+    <description>Recent content in 안녕 on 훈련장</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/%EC%95%88%EB%85%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Third</title>
+      <link>/r/third/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/r/third/</guid>
+      <description>## ## Call: ## lm(formula = y ~ x) ## ## Residuals: ## Min 1Q Median 3Q Max ## -2.68266 -0.84655 -0.02134 0.80659 2.47523 ## ## Coefficients: ## Estimate Std. Error t value Pr(&amp;gt;|t|) ## (Intercept) 0.06315 0.10414 0.606 0.546 ## x 1.91113 0.09889 19.325 &amp;lt;2e-16 *** ## --- ## Signif. codes: 0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1 ## ## Residual standard error: 1.035</description>
+    </item>
+    
+  </channel>
+</rss>
