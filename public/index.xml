@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>JangC</title>
+    <title>JANGC</title>
     <link>/</link>
-    <description>Recent content on JangC</description>
+    <description>Recent content on JANGC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate>
@@ -18,6 +18,15 @@
       
       <guid>/r/fourth/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>post</title>
+      <link>/post/post/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/post/</guid>
+      <description>knitr::opts_chunk$set(echo=F, fig.align = &amp;quot;center&amp;quot;, message=F, warning=F, fig.height = 5, fig.widget = 5, cache=T, dpi = 300)</description>
     </item>
     
     <item>
