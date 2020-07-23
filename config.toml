@@ -4,7 +4,8 @@ languageCode = "ko"
 title = "JANGc"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 hasCJKLanguage = true
-disqus_shortname = '{{ .Site.DisqusShortname }}'
+disqus_shortname = "jangc94"
+
 [[menu.main]]
   identifier = "Home"
   name = "Home"

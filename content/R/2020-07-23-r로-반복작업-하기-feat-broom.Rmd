@@ -35,9 +35,8 @@ knitr::opts_chunk$set(echo=F, fig.align = "center", message=F, warning=F, fig.he
 안녕하세요 오늘은 R 반복작업에 대해서 알아보겠습니다!
 
 프로젝트를 할 때 똑같은 작업을 반복하면 지겹습니다..
-예를 들어볼게요.
 
-T.test를 여러변수별로 해본다고 가정해보겠습니다.
+한 데이터셋에서 T.test를 여러 변수별로 해본다고 가정해보자.
 y라는 인구학적 변수별로 x1에서 x7까지 총 7번의 t.test를 할 경우
 ```{r include=TRUE, echo=TRUE, eval=FALSE}
 t.test(x1 ~ y)
@@ -49,11 +48,21 @@ t.test(x6 ~ y)
 t.test(x7 ~ y)
 ```
 
-이렇게 총 7가지를 시행해야 합니다..
+이렇게 총 7가지를 시행해야 한다..
 
-이렇게 7번을 진행할 경우, R콘솔 창에 복사하기도 힘든 결과가 7개가 나오고, 이것을 엑셀이나 다른 데에 정리하는 것은 힘들겠죠!
+t.test를 진행할 경우 콘솔에 다음과 같은 결과창이 뜬다.
+mtcars 데이터를 예로 들어보겠다.
+```{r}
+library(tidyverse)
+df <- mtcars %>% select(wt,mpg,cyl,vs,am,gear,carb) %>% mutate_at(3:7,as.factor)
+t.test(df$mpg ~ df$am)
+```
 
-그래서 우리는 tidyverse 중 broom 라이브러리를 사용하여 이 문제를 해결해보고자 합니다.
+이렇게 나온 결과값은 드래그해서 다른 문서에 복사하면 형태가 깨지는 현상이 발생한다.
+
+이렇게 7번을 진행할 경우, R콘솔 창에 복사하기도 힘든 결과가 7개가 나오고, 이것을 엑셀이나 다른 데에 정리하는 것은 굉장히 노가다가 아닐 수 없다.
+
+그래서 우리는 tidyverse 중 broom 라이브러리를 사용하여 이 문제를 해결해보고자 한다.
 
 ```{r fig.width= 3, fig.height = 3}
 
@@ -61,11 +70,14 @@ knitr::include_graphics("https://cran.r-project.org/web/packages/broom/readme/ma
 
 ```
 
-참고로 tidyverse에는 정말 유용한 라이브러리들이 있습니다 ㅎㅎ
+참고로 tidyverse에는 정말 유용한 라이브러리들이 있다.
 
 ```{r}
 knitr::include_graphics("https://tidy-ds.wjakethompson.com/img/hex-stickers.png" )
 
 ```
 
-나중에 기회가 될때 다루어보도록 하겠습니다!
+나중에 기회가 될때 다루도록 하겠다.
+
+아무튼 broom 라이브러리를 깔아준다.
+(패키지가 없는 분들은 `install.packages('broom')`을 시행해주도록 하자.)
