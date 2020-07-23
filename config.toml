@@ -1,5 +1,5 @@
 theme = "hugo-paper"
-baseURL = "http://jangc.netlify.app/"
+baseURL = "https://jangc.netlify.app/"
 languageCode = "en-us"
 title = "JANGC"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
