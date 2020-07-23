@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>broom on JANGc</title>
+    <link>/tags/broom/</link>
+    <description>Recent content in broom on JANGc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Thu, 23 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/broom/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R로 반복작업 하기(feat. broom)</title>
+      <link>/r/r%EB%A1%9C-%EB%B0%98%EB%B3%B5%EC%9E%91%EC%97%85-%ED%95%98%EA%B8%B0-feat-broom/</link>
+      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/r/r%EB%A1%9C-%EB%B0%98%EB%B3%B5%EC%9E%91%EC%97%85-%ED%95%98%EA%B8%B0-feat-broom/</guid>
+      <description>안녕하세요 오늘은 R 반복작업에 대해서 알아보겠습니다! 프로젝트를 할 때 똑같은 작업을 반복하면 지겹습니다.. 예를 들어볼게요. T.test를 여러변수별로</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>R로 반복작업 하기(feat. broom) - JANGc</title>
+    
+    <meta name="description" content="안녕하세요 오늘은 R 반복작업에 대해서 알아보겠습니다! 프로젝트를 할 때 똑같은 작업을 반복하면 지겹습니다.. 예를 들어볼게요. T.test를 여러변수별로">
+    <meta name="author" content="JYH">
+    
+    <link href="/an-old-hope.min.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
+    <link href="/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="/fire.png">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="generator" content="Hugo 0.74.2" />
+    
+    
+    
+    <script>
+      function setTheme() {
+        const time = new Date();
+
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then(res => res.json())
+            .then(data => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="/">JANGc</a></p>
+        <ul class="menu">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about">about</a>
+          </li>
+          <li>
+            <a href="/r">R</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">R로 반복작업 하기(feat. broom)</h1>
+    <div class="post-meta">JYH · July 23, 2020</div>
+  </header>
+  <div class="post-content">
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>안녕하세요 오늘은 R 반복작업에 대해서 알아보겠습니다!</p>
+<p>프로젝트를 할 때 똑같은 작업을 반복하면 지겹습니다..
+예를 들어볼게요.</p>
+<p>T.test를 여러변수별로 해본다고 가정해보겠습니다.
+y라는 인구학적 변수별로 x1에서 x7까지 총 7번의 t.test를 할 경우</p>
+<pre class="r"><code>t.test(x1 ~ y)
+t.test(x2 ~ y)
+t.test(x3 ~ y)
+t.test(x4 ~ y)
+t.test(x5 ~ y)
+t.test(x6 ~ y)
+t.test(x7 ~ y)</code></pre>
+<p>이렇게 총 7가지를 시행해야 합니다..</p>
+<p>이렇게 7번을 진행할 경우, R콘솔 창에 복사하기도 힘든 결과가 7개가 나오고, 이것을 엑셀이나 다른 데에 정리하는 것은 힘들겠죠!</p>
+<p>그래서 우리는 tidyverse 중 broom 라이브러리를 사용하여 이 문제를 해결해보고자 합니다.</p>
+<p><img src="https://cran.r-project.org/web/packages/broom/readme/man/figures/logo.png" style="display: block; margin: auto;" /></p>
+<p>참고로 tidyverse에는 정말 유용한 라이브러리들이 있습니다 ㅎㅎ</p>
+<p><img src="https://tidy-ds.wjakethompson.com/img/hex-stickers.png" style="display: block; margin: auto;" /></p>
+<p>나중에 기회가 될때 다루어보도록 하겠습니다!</p>
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/broom">broom</a></li>
+      <li><a href="/tags/tidyverse">tidyverse</a></li>
+    </ul>
+  </footer>
+  
+</article></main>
+<footer class="footer">
+  <span>&copy; 2020 <a href="/">JANGc</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
+

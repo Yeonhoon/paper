@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on JANGc</title>
+    <link>/tags/r/</link>
+    <description>Recent content in R on JANGc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>qwerty</title>
+      <link>/qwerty/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/qwerty/</guid>
+      <description>안녕하세요 반갑습니다!! ggplot(mtcars,aes(disp,mpg,color=cyl))+geom_point()</description>
+    </item>
+    
+  </channel>
+</rss>

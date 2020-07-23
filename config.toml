@@ -1,7 +1,7 @@
 theme = "hugo-paper"
 baseURL = "https://jangc.netlify.app/"
-languageCode = "en-us"
-title = "JANGC"
+languageCode = "ko"
+title = "JANGc"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 hasCJKLanguage = true
 disqus_shortname = '{{ .Site.DisqusShortname }}'

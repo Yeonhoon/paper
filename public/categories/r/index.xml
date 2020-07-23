@@ -1,43 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on JANGC</title>
+    <title>R on JANGc</title>
     <link>/categories/r/</link>
-    <description>Recent content in R on JANGC</description>
+    <description>Recent content in R on JANGc</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <language>ko</language>
+    <lastBuildDate>Thu, 23 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Fourth</title>
-      <link>/r/fourth/</link>
-      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      <title>R로 반복작업 하기(feat. broom)</title>
+      <link>/r/r%EB%A1%9C-%EB%B0%98%EB%B3%B5%EC%9E%91%EC%97%85-%ED%95%98%EA%B8%B0-feat-broom/</link>
+      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/r/fourth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Third</title>
-      <link>/r/third/</link>
-      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/r/third/</guid>
-      <description>## ## Call: ## lm(formula = y ~ x) ## ## Residuals: ## Min 1Q Median 3Q Max ## -2.68266 -0.84655 -0.02134 0.80659 2.47523 ## ## Coefficients: ## Estimate Std. Error t value Pr(&amp;gt;|t|) ## (Intercept) 0.06315 0.10414 0.606 0.546 ## x 1.91113 0.09889 19.325 &amp;lt;2e-16 *** ## --- ## Signif. codes: 0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1 ## ## Residual standard error: 1.035</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/r/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/r/2015-07-23-r-rmarkdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
+      <guid>/r/r%EB%A1%9C-%EB%B0%98%EB%B3%B5%EC%9E%91%EC%97%85-%ED%95%98%EA%B8%B0-feat-broom/</guid>
+      <description>안녕하세요 오늘은 R 반복작업에 대해서 알아보겠습니다! 프로젝트를 할 때 똑같은 작업을 반복하면 지겹습니다.. 예를 들어볼게요. T.test를 여러변수별로</description>
     </item>
     
   </channel>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tag1 on JANGc</title>
+    <link>/tags/tag1/</link>
+    <description>Recent content in tag1 on JANGc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>post_it</title>
+      <link>/post/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/</guid>
+      <description>안녕하세요 반갑습니다. 장연훈입니다. 니한ㅇ하ㅗ나허ㅗㄴㅇ라헌라어화엃ㄹㅇ하ㅓㅗㄴ라ㅓ화너ㅗ하ㅓㄴ오하ㅓㄴㄹ와헌ㄹ옿</description>
+    </item>
+    
+  </channel>
+</rss>

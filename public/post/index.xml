@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on JANGC</title>
+    <title>Posts on JANGc</title>
     <link>/post/</link>
-    <description>Recent content in Posts on JANGC</description>
+    <description>Recent content in Posts on JANGc</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <language>ko</language>
+    <lastBuildDate>Thu, 23 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>post</title>
-      <link>/post/post/</link>
-      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      <title>fifth</title>
+      <link>/post/fifth/</link>
+      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/post/</guid>
-      <description>knitr::opts_chunk$set(echo=F, fig.align = &amp;quot;center&amp;quot;, message=F, warning=F, fig.height = 5, fig.widget = 5, cache=T, dpi = 300)</description>
+      <guid>/post/fifth/</guid>
+      <description>반갑소</description>
     </item>
     
   </channel>

@@ -1,0 +1,51 @@
+---
+title: R로 반복작업 하기(feat. broom)
+author: JYH
+date: '2020-07-23'
+slug: r로-반복작업-하기-feat-broom
+categories:
+  - R
+tags:
+  - broom
+  - tidyverse
+description: ''
+output:
+  html_document:
+    fig_height: 3
+    fig_width: 3
+    highlight: textmate
+    theme: cosmo
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+imgs: []
+cover: ''
+readingTime: yes
+comments: yes
+justify: no
+single: no
+license: ''
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>안녕하세요 오늘은 R 반복작업에 대해서 알아보겠습니다!</p>
+<p>프로젝트를 할 때 똑같은 작업을 반복하면 지겹습니다..
+예를 들어볼게요.</p>
+<p>T.test를 여러변수별로 해본다고 가정해보겠습니다.
+y라는 인구학적 변수별로 x1에서 x7까지 총 7번의 t.test를 할 경우</p>
+<pre class="r"><code>t.test(x1 ~ y)
+t.test(x2 ~ y)
+t.test(x3 ~ y)
+t.test(x4 ~ y)
+t.test(x5 ~ y)
+t.test(x6 ~ y)
+t.test(x7 ~ y)</code></pre>
+<p>이렇게 총 7가지를 시행해야 합니다..</p>
+<p>이렇게 7번을 진행할 경우, R콘솔 창에 복사하기도 힘든 결과가 7개가 나오고, 이것을 엑셀이나 다른 데에 정리하는 것은 힘들겠죠!</p>
+<p>그래서 우리는 tidyverse 중 broom 라이브러리를 사용하여 이 문제를 해결해보고자 합니다.</p>
+<p><img src="https://cran.r-project.org/web/packages/broom/readme/man/figures/logo.png" style="display: block; margin: auto;" /></p>
+<p>참고로 tidyverse에는 정말 유용한 라이브러리들이 있습니다 ㅎㅎ</p>
+<p><img src="https://tidy-ds.wjakethompson.com/img/hex-stickers.png" style="display: block; margin: auto;" /></p>
+<p>나중에 기회가 될때 다루어보도록 하겠습니다!</p>

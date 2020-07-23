@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>한글지원 on JANGC</title>
+    <title>한글지원 on JANGc</title>
     <link>/tags/%ED%95%9C%EA%B8%80%EC%A7%80%EC%9B%90/</link>
-    <description>Recent content in 한글지원 on JANGC</description>
+    <description>Recent content in 한글지원 on JANGc</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>ko</language>
     <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/%ED%95%9C%EA%B8%80%EC%A7%80%EC%9B%90/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +13,10 @@
     
     <item>
       <title>second</title>
-      <link>/r/second/</link>
+      <link>/second/</link>
       <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/r/second/</guid>
+      <guid>/second/</guid>
       <description>hihi!</description>
     </item>
     
