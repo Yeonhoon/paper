@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>R로 반복작업 하기(feat. broom) - JANGc</title>
+    <title>R로 반복작업 하기(feat. broom) - JangC</title>
     
     <meta name="description" content="안녕하세요 오늘은 R 반복작업에 대해서 알아보겠습니다! 프로젝트를 할 때 똑같은 작업을 반복하면 지겹습니다.. 한 데이터셋에서 T.test를 여러 변수별로 해">
     <meta name="author" content="JYH">
@@ -14,8 +14,8 @@
     <link href="/style.css" rel="stylesheet">
     <link href="/custom.css" rel="stylesheet">
     
-    <link rel="apple-touch-icon" href="/fire.png">
-    <link rel="icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/flame.png">
+    <link rel="icon" href="/flame2.ico">
     <meta name="generator" content="Hugo 0.74.2" />
     
     
@@ -69,7 +69,7 @@
     </script>
     <header class="header">
       <nav class="nav">
-        <p class="logo"><a href="/">JANGc</a></p>
+        <p class="logo"><a href="/">JangC</a></p>
         <ul class="menu">
           <li>
             <a href="/">Home</a>
@@ -99,7 +99,8 @@
 <p>프로젝트를 할 때 똑같은 작업을 반복하면 지겹습니다..</p>
 <p>한 데이터셋에서 T.test를 여러 변수별로 해본다고 가정해보자.
 y라는 인구학적 변수별로 x1에서 x7까지 총 7번의 t.test를 할 경우</p>
-<pre class="r"><code>t.test(x1 ~ y)
+<pre class="r"><code>## T.test 여러번 반복할 경우
+t.test(x1 ~ y)
 t.test(x2 ~ y)
 t.test(x3 ~ y)
 t.test(x4 ~ y)
@@ -139,20 +140,21 @@ mtcars 데이터를 예로 들어보겠다.</p>
     </ul>
   </footer>
   
-  <div id="disqus_thread"></div>
-<script>
+<div id="disqus_thread"></div>
+  <script>
+  
+  
 
+  
 
-
-
-
-(function() { 
+    (function() { 
 var d = document, s = d.createElement('script');
 s.src = 'https://jangc94.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
 </script>
+
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                             
   <div id="disqus_thread"></div>
@@ -172,7 +174,7 @@ s.setAttribute('data-timestamp', +new Date());
   
 </article></main>
 <footer class="footer">
-  <span>&copy; 2020 <a href="/">JANGc</a></span>
+  <span>&copy; 2020 <a href="/">JangC</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
   <span>&middot;</span>

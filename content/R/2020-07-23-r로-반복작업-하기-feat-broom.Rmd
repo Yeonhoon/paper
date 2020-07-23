@@ -39,6 +39,8 @@ knitr::opts_chunk$set(echo=F, fig.align = "center", message=F, warning=F, fig.he
 한 데이터셋에서 T.test를 여러 변수별로 해본다고 가정해보자.
 y라는 인구학적 변수별로 x1에서 x7까지 총 7번의 t.test를 할 경우
 ```{r include=TRUE, echo=TRUE, eval=FALSE}
+
+## T.test 여러번 반복할 경우
 t.test(x1 ~ y)
 t.test(x2 ~ y)
 t.test(x3 ~ y)
