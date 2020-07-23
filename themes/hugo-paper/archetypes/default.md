@@ -4,11 +4,6 @@ description: ""
 date: {{ .Date }}
 author: "JYH"
 output:
-  html_document:
-    fig_height: 5
-    fig_width: 10
-    highlight: textmate
-    theme: cosmo
     toc: yes
     toc_depth: 3
     toc_float: yes

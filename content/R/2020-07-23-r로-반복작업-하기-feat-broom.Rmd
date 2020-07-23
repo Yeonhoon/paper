@@ -81,3 +81,10 @@ knitr::include_graphics("https://tidy-ds.wjakethompson.com/img/hex-stickers.png"
 
 아무튼 broom 라이브러리를 깔아준다.
 (패키지가 없는 분들은 `install.packages('broom')`을 시행해주도록 하자.)
+
+```{r}
+library(broom)
+```
+
+broom 패키지 중에서 유용하게 쓰이는 것은 바로 `tidy` 라는 함수이다.
+우리는 이 `tidy`를 이용하여 여러 결과를 정리할 수 있다.

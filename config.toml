@@ -4,7 +4,7 @@ languageCode = "ko"
 title = "JANGc"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 hasCJKLanguage = true
-disqus_shortname = "jangc94"
+disqusShortname = "jangc94"
 
 [[menu.main]]
   identifier = "Home"
